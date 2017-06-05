@@ -33,6 +33,8 @@ social:
     url: https://www.linkedin.com/in/seangantly/
   - title: github
     url: https://github.com/seangantly
+  - title: trello
+    url: https://github.com/seangantly
 
 # Build settings
 markdown: kramdown
