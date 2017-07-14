@@ -397,6 +397,7 @@ body {
 .portfolio2-btn {
   color: rgb(238,203,0) !important;
   border-color: rgb(238,203,0) !important;
+  background-color: rgb(34,26,72)!important;
 }
 .portfolio2-btn:hover {
   color: rgb(34,26,72) !important;
@@ -425,11 +426,12 @@ body {
   color: #0084b4;
 }
 .portfolio4-btn {
-  color: #0084b4 !important;
+  color: white !important;
   border-color: #0084b4 !important;
+  background-color: #0084b4 !important;
 }
 .portfolio4-btn:hover {
-  color: white !important;
-  background-color: #0084b4 !important;
+  color: #0084b4 !important;
+  background-color: white !important;
   border-color: rgb(34,26,72) !important;
 }
