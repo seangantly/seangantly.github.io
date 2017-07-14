@@ -274,7 +274,7 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 50px;
     }
 
     .download-section {
@@ -366,4 +366,69 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+.portfolio {
+  text-align: center;
+}
+.row {
+  padding: 60px;
+}
+
+#portfolio1 {
+  background: url(/img/spaceInvadersScreenshot.png) no-repeat center scroll;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(143,252,59);
+}
+.portfolio1-btn {
+    color: rgb(143,252,59) !important;
+    border-color: rgb(143,252,59) !important;
+}
+.portfolio1-btn:hover {
+  color: black !important;
+    background-color: rgb(143,252,59) !important;
+    border-color: rgb(143,252,59) !important;
+}
+#portfolio2 {
+  background: url(/img/hustl.png) no-repeat center center scroll;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(238,203,0);
+}
+.portfolio2-btn {
+  color: rgb(238,203,0) !important;
+  border-color: rgb(238,203,0) !important;
+}
+.portfolio2-btn:hover {
+  color: rgb(34,26,72) !important;
+  background-color: rgb(238,203,0) !important;
+  border-color: rgb(34,26,72) !important;
+}
+#portfolio3 {
+  background: url(/img/market-x-bw.png) no-repeat top left scroll;
+  filter: gray; /* IE6-9 */
+  font-family: 'Press Start 2P', cursive;
+  color: #9F031B;
+}
+.portfolio3-btn {
+  color: #9F031B !important;
+  border-color: #9F031B !important;
+}
+.portfolio3-btn:hover {
+  color: white!important;
+  background-color:#9F031B !important;
+  border-color: black!important;
+}
+#portfolio4 {
+  background: url(/img/noiz.png) no-repeat center center scroll;
+  font-family: 'Press Start 2P', cursive;
+  color: #0084b4;
+}
+.portfolio4-btn {
+  color: #0084b4 !important;
+  border-color: #0084b4 !important;
+}
+.portfolio4-btn:hover {
+  color: white !important;
+  background-color: #0084b4 !important;
+  border-color: rgb(34,26,72) !important;
 }
