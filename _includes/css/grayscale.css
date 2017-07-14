@@ -410,12 +410,13 @@ body {
   color: #9F031B;
 }
 .portfolio3-btn {
-  color: #9F031B !important;
+  color: white !important;
   border-color: #9F031B !important;
+  background-color: #9F031B;
 }
 .portfolio3-btn:hover {
-  color: white!important;
-  background-color:#9F031B !important;
+  color: #9F031B!important;
+  background-color:white !important;
   border-color: black!important;
 }
 #portfolio4 {
