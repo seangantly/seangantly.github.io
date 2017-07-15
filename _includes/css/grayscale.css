@@ -144,7 +144,7 @@ a:focus {
     /*background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;*/
     background-image: url(/img/intro-bg.jpg);
 
-    /*height: 1000px;*/
+    height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
