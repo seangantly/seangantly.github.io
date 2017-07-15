@@ -35,6 +35,7 @@ p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    font-weight: 600;
 }
 
 @media(min-width:767px) {
@@ -135,17 +136,26 @@ a:focus {
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    /*height: auto;*/
     padding: 100px 0;
     text-align: center;
     color: #fff;
 
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: black;
+    /*background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;*/
+    background-image: url(/img/intro-bg.jpg);
+
+    /*height: 1000px;*/
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-color: black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover;*/
 }
 
 .intro .intro-body {
@@ -370,6 +380,7 @@ body {
 
 .portfolio {
   text-align: center;
+  padding-top: 70px;
 }
 .row {
   padding: 60px;
