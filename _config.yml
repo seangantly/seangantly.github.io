@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Sean Gantly
-email: gantly.sean@gmail.com
+email: sean@gantly.io
 description: > # this means to ignore newlines until "baseurl:"
-  Business Analyst/Software Developer
+  FinTech Product Manager
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: seaner6
@@ -29,10 +29,6 @@ color:
 social:
   - title: github
     url: https://github.com/seangantly
-  - title: trello
-    url: https://trello.com/b/41e0sSWf/group-project
-  - title: twitter
-    url: https://twitter.com/seaner6
   - title: linkedin
     url: https://www.linkedin.com/in/seangantly/
 
